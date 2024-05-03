@@ -1,0 +1,29 @@
+1. Quais são as entidades necessárias?
+	Empresas parceiras
+	Tecnologia
+	Colaboradores
+
+2. Quais são os principais campos e seus respectivos tipos?
+	Empresas_parceiras
+		 idEmpresa parceira INT PRIMARY KEY
+	Tecnologia
+		 idTecnologia INT PRIMARY KEY
+	Colaboradores
+		 idColaborador INT PRIMARY KEY
+
+3. Como essas entidades estão relacionadas?
+	Relação de "1,n" da tabela "Empresas_parceiras" para a tabela "Tecnologia" e "0,n" da a tabela "Tecnologia" para a tabela "Empresas_parceiras". 
+	Relação de "0,n" da tabela "Empresas_parceiras" para a tabela "Colaboradores" e "0,n" da a tabela "Colaboradores" para a tabela "Empresas_parceiras".
+		 	
+4. Simule 2 registros para cada entidade.
+
+	1. INSERT INTO db.Empresas_parceiras
+		VALUES  ('Enel Brasil', 'enelbrasil@hotmail.com', 'São Paulo'),
+			('BTG Pactual, 'btgpactual@hotmail.com', 'Rio de Janeiro');
+
+	2. INSERT INTO db.Tecnologia
+		VALUES  ('Python', 'Dados'),
+			('JavaScript', 'Desenvolvimento');
+
+
+
