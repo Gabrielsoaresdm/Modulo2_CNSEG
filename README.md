@@ -48,9 +48,9 @@ id_empresa (INT): Chave estrangeira referenciando a tabela Empresa_Parceira.
 Empresa_Parceira e Colaboradores: Relacionamento de 0 para N, indicando que uma empresa pode ter vários colaboradores e os colaboradores podem trabalhar para n empresas.
 
 Empresa_Parceira e Tecnologia_Utilizada: Relacionamento de 1 para N, indicando que uma empresa pode utilizar várias tecnologias e uma tecnologia pode ser utilizada por várias empresas.
-
-4 - Simule 2 registros para cada entidade.
 ```
+4 - Simule 2 registros para cada entidade.
+
 ## Adicionar registros para Empresa_Parceira
 
 INSERT INTO Empresa_Parceira (nome, email, localização) VALUES 
